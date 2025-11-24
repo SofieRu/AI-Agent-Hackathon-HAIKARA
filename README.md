@@ -67,7 +67,7 @@ All API calls go through the BAP Sandbox as required by Beckn protocol.
         ▼                     ▼                     ▼
 ┌──────────────┐      ┌──────────────┐     ┌──────────────┐
 │   COMPUTE    │      │     GRID     │     │   DECISION   │
-│    AGENT     │      │    AGENT     │     │    AGENT     │
+│    AGENT     │      │     AGENT    │     │     AGENT    │
 │              │      │              │     │              │
 │ • Workloads  │      │ • Prices     │     │ • Optimize   │
 │ • Capacity   │      │ • Carbon     │     │ • Schedule   │
@@ -88,7 +88,7 @@ All API calls go through the BAP Sandbox as required by Beckn protocol.
                               ▼
                    ┌─────────────────────┐
                    │   BECKN API CLIENT  │
-                   │  (beckn_client.py)  │
+                   │   (beckn_client.py) │
                    │                     │
                    │  Beckn Protocol     │
                    │  Communication      │
@@ -96,18 +96,18 @@ All API calls go through the BAP Sandbox as required by Beckn protocol.
                               │ HTTPS
                               ▼
                    ┌─────────────────────┐
-                   │   BAP SANDBOX       │
-                   │  (Provided by DEG)  │
+                   │     BAP SANDBOX     │
+                   │   (Provided by DEG) │
                    │                     │
-                   │  Beckn Network      │
+                   │    Beckn Network    │
                    └─────────────────────┘
                               │
                               ▼
                    ┌─────────────────────┐
-                   │  Grid Providers     │
-                   │     (BPPs)          │
+                   │    Grid Providers   │
+                   │       (BPPs)        │
                    │                     │
-                   │  Energy Markets     │
+                   │    Energy Markets   │
                    └─────────────────────┘
 ```
 
