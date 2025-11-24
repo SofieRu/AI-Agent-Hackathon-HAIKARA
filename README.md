@@ -1,8 +1,8 @@
 # AI Agent Hackathon x Digital Energy Grid
 
-<p align="center">
+<!-- <p align="center">
   <img src="Logo_Haikara_Final.png" alt="Haikara logo" width="250">
-</p>
+</p>  -->
 
 <p align="center">
   <img src="White_Logo_Final.png" alt="Haikara logo" width="300">
