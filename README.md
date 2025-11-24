@@ -50,6 +50,7 @@ The **Orchestrator** coordinates these agents through the complete Beckn protoco
 
 All API calls go through the BAP Sandbox as required by Beckn protocol.
 
+<br>
 
 ## High-Level System Overview
 
