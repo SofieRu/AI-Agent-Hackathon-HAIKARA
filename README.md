@@ -4,10 +4,10 @@
 
 Team Members: 
 
-Sofie Rüffer
-Kamila Bereket
-Adeline Wong
-Rucha Agashe
-Rana Rustamli
+Sofie Rüffer  
+Kamila Bereket  
+Adeline Wong  
+Rucha Agashe  
+Rana Rustamli  
 
-## Repository Overview
+### Repository Overview
