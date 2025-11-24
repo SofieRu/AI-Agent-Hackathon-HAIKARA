@@ -1,0 +1,922 @@
+[
+  {
+    "timestamp": "2025-11-24T17:27:39.186783",
+    "event_type": "cycle_started",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "timestamp": "2025-11-24T17:27:39.186766"
+    },
+    "signature": "bf4d651ddf67e397f6097577d3ee2db3ead229974e6cc503b011b31e071df2b0"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:39.187553",
+    "event_type": "workloads_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "count": 5,
+      "workload_ids": [
+        "JOB-001",
+        "JOB-002",
+        "JOB-003",
+        "JOB-004",
+        "JOB-005"
+      ]
+    },
+    "signature": "1dfc2ea157dbfb8559f960096d6f52a820662ef6451beaaf4083d1d0ed4556e5"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:39.188546",
+    "event_type": "energy_signals_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "current_price": 0.375,
+      "current_carbon": 352.89132498185404,
+      "forecast_hours": 24
+    },
+    "signature": "f70fed78c59a263e786f552b353cf077afdca1f98ca6f39aa1fb23d48d0d1401"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:39.194563",
+    "event_type": "schedule_optimized",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "decisions_count": 5,
+      "savings": {
+        "immediate_cost": 871.9985876109694,
+        "optimized_cost": 456.2450526380055,
+        "cost_savings": 415.75353497296385,
+        "cost_savings_percent": 47.67823490540409,
+        "immediate_carbon_kg": 940.7419109930323,
+        "optimized_carbon_kg": 480.9017671274465,
+        "carbon_savings_kg": 459.8401438655858,
+        "carbon_savings_percent": 48.88058440812803,
+        "p415_revenue": 250.5,
+        "total_benefit": 666.2535349729638
+      }
+    },
+    "signature": "fa07478e33dd77fd653f1fadc66707e67931cd5d3108f82d0f0b685a4dc186c6"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:39.260685",
+    "event_type": "beckn_search",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+      "schedule_count": 5
+    },
+    "signature": "c8e4af0800d2c4002359a369129c8b989b66de21f2ae06b4387aced678a576e8"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:40.269177",
+    "event_type": "beckn_select",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "selected_item": {
+        "id": "energy-window-1",
+        "descriptor": {
+          "name": "Off-peak Window"
+        },
+        "price": {
+          "value": "0.18",
+          "currency": "GBP"
+        },
+        "fulfillment": {
+          "start": "2025-11-25T14:27:39.188026"
+        }
+      }
+    },
+    "signature": "95735769f6e3ede51ea4d1bcacf2c8e2d93b4713d42b6b65a9e2e43f544e52b4"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:41.278667",
+    "event_type": "beckn_init",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_details": {
+        "provider": {
+          "id": "grid-provider-1"
+        },
+        "items": [
+          {
+            "id": "energy-window-1",
+            "descriptor": {
+              "name": "Off-peak Window"
+            },
+            "price": {
+              "value": "0.18",
+              "currency": "GBP"
+            },
+            "fulfillment": {
+              "start": "2025-11-25T14:27:39.188026"
+            }
+          }
+        ],
+        "quote": {
+          "price": {
+            "value": "45.50",
+            "currency": "GBP"
+          }
+        }
+      }
+    },
+    "signature": "9876dca56717f9fce6cab65ef893f76ecb19705f2550b52e114c888acab91892"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:42.284411",
+    "event_type": "beckn_confirm",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f"
+    },
+    "signature": "fef940d027d2204d4c36bf45c01add16d6542dafccd2e47602f463f599aecd76"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:42.288473",
+    "event_type": "beckn_status",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "status": "IN_PROGRESS"
+    },
+    "signature": "6e134996d8bca130b0b6b0a75e34df64e0f344f602a1e7af294bb7f508102717"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:42.292790",
+    "event_type": "beckn_update",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "update_data": {
+        "fulfillment": {
+          "state": "IN_PROGRESS",
+          "current_load_kw": 150,
+          "progress_percent": 50
+        }
+      }
+    },
+    "signature": "2bbb68f7f7cb0e412cba6b22f70d2dde0245f347d6fae0e6c5f366f0259f0a2b"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:42.297844",
+    "event_type": "beckn_rating",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "rating_data": {
+        "rating": 5,
+        "feedback": "Successfully optimized workload scheduling",
+        "carbon_saved_kg": 480.9017671274465,
+        "cost_saved_gbp": 456.2450526380055,
+        "p415_revenue_gbp": 250.5
+      }
+    },
+    "signature": "8a1ce701a62a3caa9d98049135118e4a6ab1c2a705eb46e0c5371eaec846e9d1"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:55.360900",
+    "event_type": "cycle_started",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "timestamp": "2025-11-24T17:27:55.360891"
+    },
+    "signature": "bcf14f33443e7769a8130d532bdb56bc0943008e0b8a7dae56abfe5a0bd86d0b"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:55.361028",
+    "event_type": "workloads_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "count": 5,
+      "workload_ids": [
+        "JOB-001",
+        "JOB-002",
+        "JOB-003",
+        "JOB-004",
+        "JOB-005"
+      ]
+    },
+    "signature": "945f1b06a21f6f28660f01e87f4a59c9ec60e49bbe5aa095a2971896275417ea"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:55.361574",
+    "event_type": "energy_signals_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "current_price": 0.375,
+      "current_carbon": 305.933445264577,
+      "forecast_hours": 24
+    },
+    "signature": "5fe0a9061b56f1eb9e107a7b4a1fe9c7bdfcc30ddb4b67b895ba07e6c8c255f5"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:55.362528",
+    "event_type": "schedule_optimized",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "decisions_count": 5,
+      "savings": {
+        "immediate_cost": 810.3798661552398,
+        "optimized_cost": 596.1339976454672,
+        "cost_savings": 214.24586850977266,
+        "cost_savings_percent": 26.437708716313395,
+        "immediate_carbon_kg": 908.0015061417031,
+        "optimized_carbon_kg": 571.2373988200123,
+        "carbon_savings_kg": 336.76410732169074,
+        "carbon_savings_percent": 37.08849655466708,
+        "p415_revenue": 240.0,
+        "total_benefit": 454.24586850977266
+      }
+    },
+    "signature": "b65079c5bdf2ca818b2d67552d0e1bcd64183b4f9ca51b5790505caf56810f6e"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:55.365916",
+    "event_type": "beckn_search",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+      "schedule_count": 5
+    },
+    "signature": "c9bb9b31a3c1e245bd9e96affe3dd0e266b29eec93433e929a5eadd1a43614df"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:56.374962",
+    "event_type": "beckn_select",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "selected_item": {
+        "id": "energy-window-1",
+        "descriptor": {
+          "name": "Off-peak Window"
+        },
+        "price": {
+          "value": "0.18",
+          "currency": "GBP"
+        },
+        "fulfillment": {
+          "start": "2025-11-24T22:27:55.361165"
+        }
+      }
+    },
+    "signature": "cb677cefd8daa0a7cf8632deb387c2849de2e474e3d9d9e978ec4ae6c60fdffc"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:57.385764",
+    "event_type": "beckn_init",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_details": {
+        "provider": {
+          "id": "grid-provider-1"
+        },
+        "items": [
+          {
+            "id": "energy-window-1",
+            "descriptor": {
+              "name": "Off-peak Window"
+            },
+            "price": {
+              "value": "0.18",
+              "currency": "GBP"
+            },
+            "fulfillment": {
+              "start": "2025-11-24T22:27:55.361165"
+            }
+          }
+        ],
+        "quote": {
+          "price": {
+            "value": "45.50",
+            "currency": "GBP"
+          }
+        }
+      }
+    },
+    "signature": "ed79fb043157c86113423b29baaa82bc4f7ade5fd7b7b1c72b909a92235d98ff"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:58.394870",
+    "event_type": "beckn_confirm",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f"
+    },
+    "signature": "080732d5fd9c34b39dbf9bb74f20d43b3f1ad868c3637de28330af8d4c0e8880"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:58.398867",
+    "event_type": "beckn_status",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "status": "IN_PROGRESS"
+    },
+    "signature": "fee6a3f17fd5662c0a567dab531adcb2cdffdd3e130ea1f78ef4a4447af72bf6"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:58.402417",
+    "event_type": "beckn_update",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "update_data": {
+        "fulfillment": {
+          "state": "IN_PROGRESS",
+          "current_load_kw": 150,
+          "progress_percent": 50
+        }
+      }
+    },
+    "signature": "37a55a479efb4170652edd34a23f2c746a984012dddfd5a80ec8ac69eda1689b"
+  },
+  {
+    "timestamp": "2025-11-24T17:27:58.406843",
+    "event_type": "beckn_rating",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "rating_data": {
+        "rating": 5,
+        "feedback": "Successfully optimized workload scheduling",
+        "carbon_saved_kg": 571.2373988200123,
+        "cost_saved_gbp": 596.1339976454672,
+        "p415_revenue_gbp": 240.0
+      }
+    },
+    "signature": "ffbc6328095a91b8884b5dded4f6f5f2f7801e8f771047b8c0ef59a8bc2fa375"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:13.449259",
+    "event_type": "cycle_started",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "timestamp": "2025-11-24T17:28:13.449247"
+    },
+    "signature": "6db42f03868325dbeef8a340ab4deb57a24cf098508f6ed4e890e0efe894ce59"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:13.449405",
+    "event_type": "workloads_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "count": 5,
+      "workload_ids": [
+        "JOB-001",
+        "JOB-002",
+        "JOB-003",
+        "JOB-004",
+        "JOB-005"
+      ]
+    },
+    "signature": "213a163f7be3e0c2b942b6e762ec02e7a9fc29f8c839ca6cc73dada8a3d3dff8"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:13.449946",
+    "event_type": "energy_signals_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "current_price": 0.375,
+      "current_carbon": 280.3898220221572,
+      "forecast_hours": 24
+    },
+    "signature": "91640877782958e57e827be0edc627251940844399337e3049f47288fbadf8ee"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:13.451241",
+    "event_type": "schedule_optimized",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "decisions_count": 5,
+      "savings": {
+        "immediate_cost": 819.6183625119858,
+        "optimized_cost": 474.5908489623656,
+        "cost_savings": 345.02751354962015,
+        "cost_savings_percent": 42.096118063066776,
+        "immediate_carbon_kg": 824.910884165963,
+        "optimized_carbon_kg": 517.8053161720829,
+        "carbon_savings_kg": 307.1055679938801,
+        "carbon_savings_percent": 37.228938772505494,
+        "p415_revenue": 280.5,
+        "total_benefit": 625.5275135496202
+      }
+    },
+    "signature": "7402d0c0786afc7b295876306ec111cb16fafebb97a075f9fe43d39a15358126"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:13.462663",
+    "event_type": "beckn_search",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+      "schedule_count": 5
+    },
+    "signature": "0bd15cb12a5ce94539117c761ba22a9eaa0901abf254938504a5af5b2297c4c0"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:14.467777",
+    "event_type": "beckn_select",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "selected_item": {
+        "id": "energy-window-1",
+        "descriptor": {
+          "name": "Off-peak Window"
+        },
+        "price": {
+          "value": "0.18",
+          "currency": "GBP"
+        },
+        "fulfillment": {
+          "start": "2025-11-25T02:28:13.449559"
+        }
+      }
+    },
+    "signature": "e380ce7ce26b19331267299a2cbb7fb21334b71c2c0ab9dd4060b7f8737ba589"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:15.477740",
+    "event_type": "beckn_init",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_details": {
+        "provider": {
+          "id": "grid-provider-1"
+        },
+        "items": [
+          {
+            "id": "energy-window-1",
+            "descriptor": {
+              "name": "Off-peak Window"
+            },
+            "price": {
+              "value": "0.18",
+              "currency": "GBP"
+            },
+            "fulfillment": {
+              "start": "2025-11-25T02:28:13.449559"
+            }
+          }
+        ],
+        "quote": {
+          "price": {
+            "value": "45.50",
+            "currency": "GBP"
+          }
+        }
+      }
+    },
+    "signature": "48816ad4d761329b64f5ecbfbef65b0e6a572ae2b8d7021b8a3f66b4bccf88cc"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:16.486524",
+    "event_type": "beckn_confirm",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f"
+    },
+    "signature": "43560b0233bbc8213bb04c558ca5580fe6db364e8405ac7bb4521f766811a49b"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:16.491644",
+    "event_type": "beckn_status",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "status": "IN_PROGRESS"
+    },
+    "signature": "1882effc3488e87bd76a459de1db4c0ac81479542d739a8c704db11abc2aec3c"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:16.496292",
+    "event_type": "beckn_update",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "update_data": {
+        "fulfillment": {
+          "state": "IN_PROGRESS",
+          "current_load_kw": 150,
+          "progress_percent": 50
+        }
+      }
+    },
+    "signature": "46a318b075a85a51b5a49f941568837742dd23396fc666aceb53fb701a6b64f5"
+  },
+  {
+    "timestamp": "2025-11-24T17:28:16.499870",
+    "event_type": "beckn_rating",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "rating_data": {
+        "rating": 5,
+        "feedback": "Successfully optimized workload scheduling",
+        "carbon_saved_kg": 517.8053161720829,
+        "cost_saved_gbp": 474.5908489623656,
+        "p415_revenue_gbp": 280.5
+      }
+    },
+    "signature": "be60035ef5846a74b3def4674e6d99751a3b4e7073c8ae37770c88b552a04e65"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:02.131727",
+    "event_type": "cycle_started",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "timestamp": "2025-11-24T17:29:02.131717"
+    },
+    "signature": "cb2ca19e7516517285a249b7889c39179ed82fc8c0a3e20c962ff12995edc6b1"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:02.131852",
+    "event_type": "workloads_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "count": 5,
+      "workload_ids": [
+        "JOB-001",
+        "JOB-002",
+        "JOB-003",
+        "JOB-004",
+        "JOB-005"
+      ]
+    },
+    "signature": "207af6fdfb8d223fa0f358bfd0db3b5aaf29f053b7ccad9cdad4d346b1c93aa7"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:02.132360",
+    "event_type": "energy_signals_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "current_price": 0.375,
+      "current_carbon": 267.53331950462433,
+      "forecast_hours": 24
+    },
+    "signature": "6703417458378d30b956b07e9b71631d1e47a7a83219f35f33fca53784c84b43"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:02.133381",
+    "event_type": "schedule_optimized",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "decisions_count": 5,
+      "savings": {
+        "immediate_cost": 981.58634242962,
+        "optimized_cost": 609.9714698696766,
+        "cost_savings": 371.61487255994336,
+        "cost_savings_percent": 37.85860260037066,
+        "immediate_carbon_kg": 914.4523053342906,
+        "optimized_carbon_kg": 595.4874684226509,
+        "carbon_savings_kg": 318.9648369116398,
+        "carbon_savings_percent": 34.88042351153982,
+        "p415_revenue": 310.5,
+        "total_benefit": 682.1148725599434
+      }
+    },
+    "signature": "8c504c46fde6530d6f327e76548b6dad8455b73e51ee520dcf925371b21a063f"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:02.136752",
+    "event_type": "beckn_search",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+      "schedule_count": 5
+    },
+    "signature": "d9f20985ac41f8cefd45899e42c7bdf362d7ae7b95081f908e96fc5beade65c6"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:03.147162",
+    "event_type": "beckn_select",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "selected_item": {
+        "id": "energy-window-1",
+        "descriptor": {
+          "name": "Off-peak Window"
+        },
+        "price": {
+          "value": "0.18",
+          "currency": "GBP"
+        },
+        "fulfillment": {
+          "start": "2025-11-25T04:29:02.131982"
+        }
+      }
+    },
+    "signature": "a92cfc149dddeeac4ac84388f326d3643ae5b25d7fc9444c6e61535311d74042"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:04.159603",
+    "event_type": "beckn_init",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_details": {
+        "provider": {
+          "id": "grid-provider-1"
+        },
+        "items": [
+          {
+            "id": "energy-window-1",
+            "descriptor": {
+              "name": "Off-peak Window"
+            },
+            "price": {
+              "value": "0.18",
+              "currency": "GBP"
+            },
+            "fulfillment": {
+              "start": "2025-11-25T04:29:02.131982"
+            }
+          }
+        ],
+        "quote": {
+          "price": {
+            "value": "45.50",
+            "currency": "GBP"
+          }
+        }
+      }
+    },
+    "signature": "43f9130006534d11d6c964f1f0ec3e581983194b1f4196d2781b8172ff494391"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:05.165077",
+    "event_type": "beckn_confirm",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f"
+    },
+    "signature": "b9514fd59101bf899d57bc902185a77db17bb46f6cf112a14573e8f783ce28c2"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:05.169134",
+    "event_type": "beckn_status",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "status": "IN_PROGRESS"
+    },
+    "signature": "1df9f873a60af302c5be54191df4a5da163f47f13322b61abc66ca7207e906c7"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:05.174342",
+    "event_type": "beckn_update",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "update_data": {
+        "fulfillment": {
+          "state": "IN_PROGRESS",
+          "current_load_kw": 150,
+          "progress_percent": 50
+        }
+      }
+    },
+    "signature": "79310dad4d599ce94bba2e6201e35f09bc21b7d79d3da314805507b1f0e34808"
+  },
+  {
+    "timestamp": "2025-11-24T17:29:05.178717",
+    "event_type": "beckn_rating",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "rating_data": {
+        "rating": 5,
+        "feedback": "Successfully optimized workload scheduling",
+        "carbon_saved_kg": 595.4874684226509,
+        "cost_saved_gbp": 609.9714698696766,
+        "p415_revenue_gbp": 310.5
+      }
+    },
+    "signature": "9bd98ec3413055207298d3dec57c39327dbdbdaf6a80d783c68568d598709876"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:43.921050",
+    "event_type": "cycle_started",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "timestamp": "2025-11-24T17:36:43.921039"
+    },
+    "signature": "e2f7851a5b34636e7db526a4d81b561710f4db6ee5ad89b8d82f395efa4d6907"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:43.921182",
+    "event_type": "workloads_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "count": 5,
+      "workload_ids": [
+        "JOB-001",
+        "JOB-002",
+        "JOB-003",
+        "JOB-004",
+        "JOB-005"
+      ]
+    },
+    "signature": "a6ac09c41a4f8cb8ebfbad17699962219b12dde8f52a246eecb20a23054aef6c"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:43.921687",
+    "event_type": "energy_signals_gathered",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "current_price": 0.375,
+      "current_carbon": 324.2678503314347,
+      "forecast_hours": 24
+    },
+    "signature": "d926e5048ff04ae187abbbe9795ddf6b72de40269965d7f53231350238bf99b9"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:43.922614",
+    "event_type": "schedule_optimized",
+    "job_id": null,
+    "beckn_transaction_id": null,
+    "data": {
+      "decisions_count": 5,
+      "savings": {
+        "immediate_cost": 941.7875804630288,
+        "optimized_cost": 539.3560083729426,
+        "cost_savings": 402.4315720900862,
+        "cost_savings_percent": 42.73060936864672,
+        "immediate_carbon_kg": 893.3771784998881,
+        "optimized_carbon_kg": 651.3419319421197,
+        "carbon_savings_kg": 242.03524655776843,
+        "carbon_savings_percent": 27.0921680542793,
+        "p415_revenue": 273.0,
+        "total_benefit": 675.4315720900862
+      }
+    },
+    "signature": "a8ed6c317811467d9643a7e924d4255f0574efd031016a9a6dce617f8acb1ef4"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:43.937667",
+    "event_type": "beckn_search",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+      "schedule_count": 5
+    },
+    "signature": "ba3d35714ae1fde878bf638a040f4637dee43136ebfe6a23e845b3cb981510a5"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:44.947019",
+    "event_type": "beckn_select",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "selected_item": {
+        "id": "energy-window-1",
+        "descriptor": {
+          "name": "Off-peak Window"
+        },
+        "price": {
+          "value": "0.18",
+          "currency": "GBP"
+        },
+        "fulfillment": {
+          "start": "2025-11-25T07:36:43.921313"
+        }
+      }
+    },
+    "signature": "fdab71fba5d510d96f46756cb9583de14cc0c52439ae1e95cc9d3603f620d31d"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:45.955595",
+    "event_type": "beckn_init",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_details": {
+        "provider": {
+          "id": "grid-provider-1"
+        },
+        "items": [
+          {
+            "id": "energy-window-1",
+            "descriptor": {
+              "name": "Off-peak Window"
+            },
+            "price": {
+              "value": "0.18",
+              "currency": "GBP"
+            },
+            "fulfillment": {
+              "start": "2025-11-25T07:36:43.921313"
+            }
+          }
+        ],
+        "quote": {
+          "price": {
+            "value": "45.50",
+            "currency": "GBP"
+          }
+        }
+      }
+    },
+    "signature": "fc7c1557765c1ccea5f5f6f3d9b4ac5a64254a23812c2ba199cda3b5b7ddc1cf"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:46.964998",
+    "event_type": "beckn_confirm",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f"
+    },
+    "signature": "36bb6dabd26ac1c69252dc92892c9c552466bcb1eda95149e3e610f7375f354b"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:46.970153",
+    "event_type": "beckn_status",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "status": "IN_PROGRESS"
+    },
+    "signature": "e8dd01f7735bc2adfc18da622c6260f12bb84557813d2cf3c0c751159d699162"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:46.973753",
+    "event_type": "beckn_update",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "update_data": {
+        "fulfillment": {
+          "state": "IN_PROGRESS",
+          "current_load_kw": 150,
+          "progress_percent": 50
+        }
+      }
+    },
+    "signature": "865d8b33c162eeed21f750866135154deb8b853f5f917deb3d188fb6b17b3ba3"
+  },
+  {
+    "timestamp": "2025-11-24T17:36:46.977319",
+    "event_type": "beckn_rating",
+    "job_id": null,
+    "beckn_transaction_id": "2445c60f-156e-4fc0-aa4f-aea20c0cc55c",
+    "data": {
+      "order_id": "ORDER-2445c60f",
+      "rating_data": {
+        "rating": 5,
+        "feedback": "Successfully optimized workload scheduling",
+        "carbon_saved_kg": 651.3419319421197,
+        "cost_saved_gbp": 539.3560083729426,
+        "p415_revenue_gbp": 273.0
+      }
+    },
+    "signature": "f291664ae225589a53a00a5138574b36ce7eda52a63e6b2a376b296769150079"
+  }
+]
