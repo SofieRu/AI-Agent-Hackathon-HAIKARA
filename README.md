@@ -50,6 +50,68 @@ The **Orchestrator** coordinates these agents through the complete Beckn protoco
 
 All API calls go through the BAP Sandbox as required by Beckn protocol.
 
+
+## High-Level System Overview
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    HAIKARA ORCHESTRATOR                          │
+│                   (orchestrator.py)                              │
+│                                                                  │
+│  Controls the complete optimization cycle and Beckn journey     │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        │                     │                     │
+        ▼                     ▼                     ▼
+┌──────────────┐      ┌──────────────┐     ┌──────────────┐
+│   COMPUTE    │      │     GRID     │     │   DECISION   │
+│    AGENT     │      │    AGENT     │     │    AGENT     │
+│              │      │              │     │              │
+│ • Workloads  │      │ • Prices     │     │ • Optimize   │
+│ • Capacity   │      │ • Carbon     │     │ • Schedule   │
+│ • SLAs       │      │ • P415       │     │ • Forecast   │
+└──────────────┘      └──────────────┘     └──────────────┘
+        │                     │                     │
+        └─────────────────────┼─────────────────────┘
+                              ▼
+                      ┌──────────────┐
+                      │    AUDIT     │
+                      │    AGENT     │
+                      │              │
+                      │ • Logging    │
+                      │ • Signatures │
+                      │ • Settlement │
+                      └──────────────┘
+                              │
+                              ▼
+                   ┌─────────────────────┐
+                   │   BECKN API CLIENT  │
+                   │  (beckn_client.py)  │
+                   │                     │
+                   │  Beckn Protocol     │
+                   │  Communication      │
+                   └─────────────────────┘
+                              │
+                              │ HTTPS
+                              ▼
+                   ┌─────────────────────┐
+                   │   BAP SANDBOX       │
+                   │  (Provided by DEG)  │
+                   │                     │
+                   │  Beckn Network      │
+                   └─────────────────────┘
+                              │
+                              ▼
+                   ┌─────────────────────┐
+                   │  Grid Providers     │
+                   │     (BPPs)          │
+                   │                     │
+                   │  Energy Markets     │
+                   └─────────────────────┘
+```
+
+
 <br>
 
 ## Installation & Running
