@@ -5,7 +5,7 @@
 </p>  -->
 
 <p align="center">
-  <img src="images/White_Logo_Final.png" alt="Haikara logo" width="300">
+  <img src="images/White_Logo_Final.png" alt="Haikara logo" width="330">
 </p>
 
 
