@@ -4,6 +4,10 @@
   <img src="Logo_Haikara_Final.png" alt="Haikara logo" width="250">
 </p>
 
+
+<img src="Logo_Haikara_Final.png" alt="Haikara logo" width="300">
+
+
 ## Haikara 
 
 **Team Members:**  
