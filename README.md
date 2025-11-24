@@ -9,7 +9,7 @@
 </p>
 
 
-## Haikara 
+# Haikara 
 
 ### Team Members  
 Sofie Rüffer  
