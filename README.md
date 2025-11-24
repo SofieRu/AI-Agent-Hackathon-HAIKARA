@@ -88,7 +88,7 @@ haikara-agent/
 ```
 
 <p align="center">
-  <img src="images/deg_font.png" alt="Image 1" width="200">
-  <img src="images/deg_font.png" alt="Image 2" width="200">
+  <img src="images/deg_font.png" alt="Image 1" width="400">
+  <img src="images/deg_font.png" alt="Image 2" width="400">
 </p>
 
