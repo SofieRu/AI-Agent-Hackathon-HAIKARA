@@ -1,5 +1,10 @@
 # AI Agent Hackathon x Digital Energy Grid
 
+<p align="center">
+  <img src="Logo_Final.png" alt="Haikara logo" width="300">
+</p>
+
+
 ## Haikara 
 
 **Team Members:**  
