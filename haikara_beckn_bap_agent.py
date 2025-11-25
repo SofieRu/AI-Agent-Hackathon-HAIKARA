@@ -13,12 +13,6 @@ Features:
  - Simple short-horizon forecasting + greedy optimizer for scheduling
  - File-based audit logs including transaction IDs, timestamps, signatures (mocked)
 
-How to run:
- 1) pip install fastapi uvicorn httpx pydantic
- 2) export BAP_BASE_URL=http://127.0.0.1:8080  # change to your BAP sandbox host
- 3) python haikara_beckn_bap_agent.py
-
-Note: This is a prototype. Replace mocked crypto, forecasting and real feed with production components.
 """
 
 from fastapi import FastAPI, Request, BackgroundTasks
